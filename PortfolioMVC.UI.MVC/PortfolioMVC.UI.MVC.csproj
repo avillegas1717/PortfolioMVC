@@ -1,0 +1,169 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-PortfolioMVC.UI.MVC-926981b0-3554-4c05-8125-6c4781f9f2e6</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="_Archive\PortfolioSiteV2\css\style.css" />
+    <Content Include="_Archive\PortfolioSiteV2\favicon.ico" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\AboutMeImg.jpg" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\Aiden.jpg" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\Alex.jpg" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\Alicia.jpg" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\AVillegasResume.docx" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\Background.jpg" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\Chanel.jpg" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\Chris.jpg" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\Dan.jpg" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\favicons\teal\android-chrome-192x192.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\favicons\teal\android-chrome-512x512.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\favicons\teal\apple-touch-icon.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\favicons\teal\favicon-16x16.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\favicons\teal\favicon-32x32.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\favicons\teal\favicon.ico" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\favicons\white\android-chrome-192x192.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\favicons\white\android-chrome-512x512.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\favicons\white\apple-touch-icon.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\favicons\white\favicon-16x16.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\favicons\white\favicon-32x32.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\favicons\white\favicon.ico" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\Gene.jpg" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\Paul.jpg" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\pngFiles\Aiden.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\pngFiles\Alex.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\pngFiles\Alicia.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\pngFiles\Chanel.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\pngFiles\Chris.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\pngFiles\Dan.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\pngFiles\Gene.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\pngFiles\Paul.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\pngFiles\Zoey.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\Portfolio\Dungeon\C# Badge - 2023-10-12.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\Portfolio\Dungeon\Dungeon1.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\Portfolio\Dungeon\Dungeon2.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\Portfolio\Dungeon\Dungeon3.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\Portfolio\Dungeon\Dungeon4.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\Portfolio\Dungeon\Dungeon5.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\Portfolio\Dungeon\Dungeon6.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\Portfolio\Dungeon\Dungeon7.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\Portfolio\Dungeon\Dungeon8.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\Portfolio\StoreFront\SQL Badge - 2023-08-24.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\Portfolio\StoreFront\StoreFront1.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\Portfolio\StoreFront\StoreFront2.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\Portfolio\StoreFront\StoreFront3.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\Portfolio\StoreFront\StoreFront4.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\Portfolio\ToDoAPI\Restful API Badge - 2023-10-31.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\Portfolio\ToDoAPI\ToDoAPI1.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\Portfolio\ToDoAPI\ToDoAPI2.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\Portfolio\ToDoAPI\ToDoAPI3.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\Portfolio\ToDoAPI\ToDoAPI4.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\Portfolio\ToDoAPI\ToDoAPI5.png" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\tealLogo.jpeg" />
+    <Content Include="_Archive\PortfolioSiteV2\img\MyUploads\Zoey.jpg" />
+    <Content Include="_Archive\PortfolioSiteV2\js\main.js" />
+    <Content Include="_Archive\PortfolioSiteV2\scss\Readme.txt" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\aos\aos.cjs.js" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\aos\aos.css" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\aos\aos.esm.js" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\aos\aos.js" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\aos\aos.js.map" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap-icons\bootstrap-icons.css" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap-icons\bootstrap-icons.min.css" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap-icons\bootstrap-icons.scss" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap-icons\fonts\bootstrap-icons.woff" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap-icons\fonts\bootstrap-icons.woff2" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\css\bootstrap-grid.css.map" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\css\bootstrap-grid.min.css.map" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\css\bootstrap-grid.rtl.css" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\css\bootstrap-grid.rtl.css.map" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\css\bootstrap-grid.rtl.min.css" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\css\bootstrap-grid.rtl.min.css.map" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\css\bootstrap-reboot.css.map" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\css\bootstrap-reboot.rtl.css" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\css\bootstrap-reboot.rtl.css.map" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\css\bootstrap-reboot.rtl.min.css" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\css\bootstrap-reboot.rtl.min.css.map" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\css\bootstrap-utilities.css" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\css\bootstrap-utilities.css.map" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\css\bootstrap-utilities.min.css" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\css\bootstrap-utilities.min.css.map" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\css\bootstrap-utilities.rtl.css" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\css\bootstrap-utilities.rtl.css.map" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\css\bootstrap-utilities.rtl.min.css" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\css\bootstrap-utilities.rtl.min.css.map" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\css\bootstrap.css.map" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\css\bootstrap.rtl.css" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\css\bootstrap.rtl.css.map" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\css\bootstrap.rtl.min.css" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\css\bootstrap.rtl.min.css.map" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\js\bootstrap.bundle.js.map" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\js\bootstrap.esm.js" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\js\bootstrap.esm.js.map" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\js\bootstrap.esm.min.js" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\js\bootstrap.esm.min.js.map" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\js\bootstrap.js.map" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\bootstrap\js\bootstrap.min.js.map" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\boxicons\css\animations.css" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\boxicons\css\boxicons.css" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\boxicons\css\boxicons.min.css" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\boxicons\css\transformations.css" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\boxicons\fonts\boxicons.eot" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\boxicons\fonts\boxicons.svg" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\boxicons\fonts\boxicons.ttf" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\boxicons\fonts\boxicons.woff" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\boxicons\fonts\boxicons.woff2" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\glightbox\css\glightbox.css" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\glightbox\css\glightbox.min.css" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\glightbox\css\plyr.css" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\glightbox\css\plyr.min.css" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\glightbox\js\glightbox.js" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\glightbox\js\glightbox.min.js" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\isotope-layout\isotope.pkgd.js" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\isotope-layout\isotope.pkgd.min.js" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\php-email-form\validate.js" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\purecounter\purecounter_vanilla.js" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\purecounter\purecounter_vanilla.js.map" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\swiper\swiper-bundle.min.css" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\swiper\swiper-bundle.min.js" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\swiper\swiper-bundle.min.js.map" />
+    <Content Include="_Archive\PortfolioSiteV2\vendor\waypoints\noframework.waypoints.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.21" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.21" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.21" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.21" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.21" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+    <PackageReference Include="NETCore.MailKit" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="_Archive\PortfolioSiteV2\assets\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\vendor\bootstrap-icons\bootstrap-icons.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
