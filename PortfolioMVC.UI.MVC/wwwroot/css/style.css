@@ -535,6 +535,11 @@ h6 {
   font-size: 14px;
   color: #fff;
 }
+/*.about .icon-box jokeBox{
+    font-family: monospace;
+    font-size: 14px;
+    color: #fff;
+}*/
 
 
 
@@ -801,7 +806,7 @@ h6 {
   color: #fff;
 } */
 
-/* FIND TEXT TO STYLE */
+
 .contact .php-email-form {
   backdrop-filter: blur(24px) saturate(400%);
   -webkit-backdrop-filter: blur(29px) saturate(300%);
@@ -891,14 +896,44 @@ background-color: black;
 }
 
 @keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
+    0% {
+        transform: rotate(0deg);
+    }
 
-  100% {
-    transform: rotate(360deg);
-  }
+    100% {
+        transform: rotate(360deg);
+    }
 }
+
+/*--------------------------------------------------------------
+# Email Confirmation | **almost done**
+--------------------------------------------------------------*/
+/*TODO | figure out styling*/
+
+
+.emailConf .icon-box {
+    backdrop-filter: blur(24px) saturate(400%);
+    -webkit-backdrop-filter: blur(29px) saturate(300%);
+    background-color: rgba(236, 244, 243, 0.043);
+    border-radius: 4px;
+    border: 2px solid rgba(247, 243, 243, 0.125);
+    padding: 60px 20px;
+    transition: all ease-in-out 0.3s;
+
+}
+.emailConf h2{
+    color: #34b7a7;
+    text-align:center;
+}
+.emailConf p {
+    font-family: monospace;
+    font-size: 16px;
+    color: #fff;
+    text-align:center;
+}
+
+
+
 
 /*--------------------------------------------------------------
 # Footer | **COMPLETE**
