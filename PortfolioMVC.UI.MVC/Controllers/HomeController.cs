@@ -118,36 +118,36 @@ namespace PortfolioMVC.UI.MVC.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-        public IActionResult _DetailsDungeonPartial()
-        {
-            return PartialView(_DetailsDungeonPartial);
-        }
+        //public IActionResult _DetailsDungeonPartial()
+        //{
+        //    return PartialView(_DetailsDungeonPartial);
+        //}
 
-        public IActionResult _DetailsAPIPartial()
-        {
-            return PartialView(_DetailsAPIPartial);
-        }
+        //public IActionResult _DetailsAPIPartial()
+        //{
+        //    return PartialView(_DetailsAPIPartial);
+        //}
 
-        public IActionResult _DetailsSQLPartial()
-        {
-            return PartialView(_DetailsSQLPartial);
-        }
+        //public IActionResult _DetailsSQLPartial()
+        //{
+        //    return PartialView(_DetailsSQLPartial);
+        //}
 
-        public IActionResult _DetailsStoreFrontPartial()
-        {
-            return PartialView(_DetailsStoreFrontPartial);
-        }
+        //public IActionResult _DetailsStoreFrontPartial()
+        //{
+        //    return PartialView(_DetailsStoreFrontPartial);
+        //}
 
-        public IActionResult _DetailsTeamPartial()
-        {
-            return PartialView(_DetailsTeamPartial);
-        }
+        //public IActionResult _DetailsTeamPartial()
+        //{
+        //    return PartialView(_DetailsTeamPartial);
+        //}
 
-        public IActionResult _DetailsToDoPartial()
-        {
-            return PartialView(_DetailsToDoPartial);
-        }
+        //public IActionResult _DetailsToDoPartial()
+        //{
+        //    return PartialView(_DetailsToDoPartial);
+        //}
 
-
+       
     }
 }

@@ -1,5 +1,4 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "About";
 }
 
@@ -7,50 +6,58 @@
 <section id="about" class="about">
     <div class="container" data-aos="fade-up">
 
-        <br />
-        <br />
+
         <br />
         <br />
         <div class="section-title">
             <h2>About</h2>
-        </div>
 
-        <div class="row">
+            <div class="row">
 
-            <div class="col-md-4 d-flex align-items-center mt-4">
+                @*<p my-5>To showcase my ability to connect an API, please enjoy this Random Dad Joke Generator:</p>
                 <div id="jokeBox" class="about icon-box">
-                    <p>WEB API GOES HERE...</p>
-                   
+                <div class="col-md-4 d-flex align-items-center mt-4">
+                </div>
+                </div> *@
+
+                <div class="col-md-6 d-flex align-items-center mt-4">
+                    <div class="about icon-box">
+                        <img src="~/img/MyUploads/Alicia.jpg" class="img-fluid" alt="Alicia Villegas">
+                    </div>
+                </div>
+
+                <div class="col-md-6 d-flex align-items-center mt-4">
+                    <p class="about icon-box text-start">
+                        I am a Full Stack Web Developer attending Centriq to build a strong foundation of programming languages, with a special interest in .NET MVC and SQL. I have a diverse background, with over 15 years in professional photography and retail management.
+                        <br />
+                        I thrive in collaborative environments where I can contribute my problem-solving skills and absorb insights and hard skills from more experienced professionals. I am driven by a thirst for knowledge and pushing myself to new limits where I can explore new technologies and create impactful solutions that enhance user experiences.
+                        <br />
+                        When I'm not coding you can find me walking dogs around Kansas City, collecting vinyl, or playing with my dogs Gizmo and Wilson.
+                        <br />
+
+                        @* I am a Junior Developer who is passionate about crafting clean and efficient code. My journey in software development hasn't been the most traditional route, having spent most of my career as a professional photographer and in retail management. I like to think that my diverse background and experiences will continue to improve throughout my career as I evolve.
+                        <br />
+                        <br />
+                        The bootcamp experience at Centriq has helped build a strong foundation in programming languages such as SQL, ASP.NET MVC, React, JavaScript, C#, and RestfulAPI. With a special interest in .NET MVC and SQL.
+                        <br />
+                        <br />
+                        I am excited to learn and excel in my craft, to develop appealing websites, and to help solve problems for end users and businesses. I thrive in collaborative environments where I can contribute my problem-solving skills and absorb insights and hard skills from more experienced professionals. I am driven by a thirst for knowledge and pushing myself to new limits where I can explore new technologies and create impactful solutions that enhance user experiences.
+                        <br />
+                        <br />
+                        When I'm not coding you can find me walking dogs around Kansas City, collecting vinyl, or playing with my dogs Gizmo and Wilson. *@
+                    </p>
                 </div>
             </div>
-
-            <div class="col-md-4 d-flex align-items-center mt-4">
-                <div class="about icon-box">
-                    <img src="~/img/MyUploads/Alicia.jpg" class="img-fluid" alt="Alicia Villegas">
-                </div>
-            </div>
-
-
-            <div class="col-md-4 d-flex align-items-center mt-4">
-                <p class="about icon-box">
-                    COOL THINGS ABOUT MYSELF GO HERE.....
-                </p>
-
-                
-            </div>
-
-            
-
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
         </div>
-        <br />
-        <br />
-        <br />
-        <br />
     </div>
-   
+
 </section>
 <!-- End About Section -->
-
 @section Scripts {
-    <script src="~/js/JokesAPI.js"></script> 
+    <script src="~/js/JokesAPI.js"></script>
 }

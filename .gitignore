@@ -399,3 +399,4 @@ FodyWeavers.xsd
 
 #Prevents sensitive data from being pushed
 /PortfolioMVC.UI.MVC/appsettings.json 
+/PortfolioMVC.UI.MVC/appsettings.Development.json

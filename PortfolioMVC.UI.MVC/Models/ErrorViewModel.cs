@@ -6,4 +6,5 @@ namespace PortfolioMVC.UI.MVC.Models
 
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
     }
+
 }
