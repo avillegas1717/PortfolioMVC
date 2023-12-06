@@ -35,7 +35,13 @@ namespace PortfolioMVC.UI.MVC.Controllers
         public IActionResult Portfolio()
         {
             return View();
+
         }
+
+        //public IActionResult Portfolio1()
+        //{
+        //    return View();
+        //}
 
         public IActionResult Classmates()
         {
