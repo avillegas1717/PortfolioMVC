@@ -154,6 +154,6 @@ namespace PortfolioMVC.UI.MVC.Controllers
         //    return PartialView(_DetailsToDoPartial);
         //}
 
-       
+
     }
 }
