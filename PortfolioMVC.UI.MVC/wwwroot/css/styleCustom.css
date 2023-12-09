@@ -428,6 +428,7 @@ h6 {
     border: 2px solid rgba(247, 243, 243, 0.125);
     padding: 60px 20px;
     transition: all ease-in-out 0.3s;
+
 }
 
 .about p {
@@ -489,14 +490,22 @@ h6 {
     text-align: center;
     transition: all ease-in-out 0.3s;
     font-family: "sans-serif", monospace;
-  
+    min-height: 474px;
+    min-width: 408px;
 }
 
-    .portfolio .icon-box h4 {
+    .portfolio .icon-box h5 {
         font-weight: 550;
         margin: 10px 0 15px 0;
         font-size: 22px;
+        color: #34b7a7;
+    }
+
+    .portfolio .icon-box p {
+        font-family: monospace;
+        font-size: 14px;
         color: #fff;
+        
     }
 
 .portfolio a {
