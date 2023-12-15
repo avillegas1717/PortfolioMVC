@@ -52,10 +52,10 @@
 
         <!-- ======= Header ======= -->
         <header id="header" class="fixed-top">
-            <div class="container-fluid d-flex justify-content-between align-items-center">
+            <div id="nav-container" class="container-fluid d-flex justify-content-between align-items-center">
 
                 <nav id="navbar" class="navbar order-last order-md-0">
-                    <ul>
+                    <ul id="nav-link-container">
                         <li>
                             <a href=@Url.Action("Index", "Home")>Home</a>
                         </li>
@@ -73,7 +73,7 @@
                         </li>
 
                     </ul>
-                    <i class="bi bi-list mobile-nav-toggle"></i>
+                    <i id="mobile-button" class="bi bi-list mobile-nav-toggle"></i>
                 </nav>
                 <!-- .navbar -->
                 <!-- Social Links -->
@@ -174,7 +174,15 @@
             });
         </script>
 
+        <!-- Mobile Nav Script -->
+        <script>
 
+            $('#mobile-button').on('click', function () {
+                $('#nav-container').toggleClass('expanded');
+                $('#nav-link-container').toggleClass('expanded');
+            });
+
+        </script>
 
 
 
