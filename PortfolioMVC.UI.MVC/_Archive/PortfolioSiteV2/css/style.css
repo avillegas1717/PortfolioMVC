@@ -60,7 +60,7 @@ h6 {
 .section-title {
   text-align: center;
   padding-bottom: 30px;
-  color: #fff;
+  color: #F5F5F5;
 }
 .section-title h2 {
   font-size: 2.5em;
@@ -96,7 +96,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  background: #F5F5F5;
 }
 #preloader:before {
   content: "";
@@ -131,21 +131,21 @@ h6 {
   bottom: 15px;
   z-index: 996;
   background: transparent;
-  color: #fff;
+  color: #F5F5F5;
   width: 40px;
   height: 40px;
-  border-color: #fff;
+  border-color: #F5F5F5;
   border-radius: 50px;
   transition: all 0.4s;
 }
 .back-to-top i {
   font-size: 24px;
-  color: #fff;
+  color: #F5F5F5;
   line-height: 0;
 }
 .back-to-top:hover {
   background: #49cbbb;
-  color: #fff;
+  color: #F5F5F5;
 } 
 .back-to-top.active {
   visibility: visible;
@@ -165,7 +165,7 @@ h6 {
   border-radius: 4px;
   border: 2px solid rgba(247, 243, 243, 0.125);
   padding: 15px 0;
-  color: #fff;
+  color: #F5F5F5;
   font-size: 10px;
   text-align: left;
   font-family: "sans-serif", monospace;
@@ -184,7 +184,7 @@ h6 {
   position: relative; 
 }
 .navbar-social-links a {
-  color: #fff;
+  color: #F5F5F5;
   opacity: 2;
   padding-left: 6px;
   line-height: 0px;
@@ -198,7 +198,7 @@ h6 {
   background-color: rgba(236, 244, 243, 0.043);
   border: 2px solid rgba(247, 243, 243, 0.125);
   padding: 5px;
-  color: #fff;
+  color: #F5F5F5;
   font-family: "sans-serif", monospace;
   font-size: 14px;
   transition: 0.4s;
@@ -234,7 +234,7 @@ h6 {
   font-family: "sans-serif", monospace;
   font-size: 16px;
   font-weight: 600;
-  color: #fff;
+  color: #F5F5F5;
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
@@ -279,7 +279,7 @@ h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
+  background: #F5F5F5;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
   border-radius: 4px;
@@ -341,7 +341,7 @@ h6 {
   transition: 0.5s;
 }
 .mobile-nav-toggle.bi-x {
-  color: #fff;
+  color: #F5F5F5;
 }
 
 @media (max-width: 991px) {
@@ -379,7 +379,7 @@ h6 {
   left: 15px;
   padding: 10px 0;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: #F5F5F5;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -406,7 +406,7 @@ h6 {
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: #fff;
+  background: #F5F5F5;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 .navbar-mobile .dropdown ul li {
@@ -461,7 +461,7 @@ h6 {
   font-size: 90px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: #F5F5F5;
 }
 #hero h2 {
   color: #40e1cf;
@@ -474,7 +474,7 @@ h6 {
   font-size: 32px;
 }
 #hero h4 {
-  color: #fff;
+  color: #F5F5F5;
   margin: 10px 0 0 0;
   font-size: 20px;
   font-family: monospace;
@@ -536,7 +536,7 @@ h6 {
 .about p {
   font-family: monospace;
   font-size: 14px;
-  color: #fff;
+  color: #F5F5F5;
 }
 
 /*--------------------------------------------------------------
@@ -557,7 +557,7 @@ h6 {
   font-weight: 550;
   margin: 10px 0 15px 0;
   font-size: 22px;
-  color: #fff;
+  color: #F5F5F5;
 }
 .classmates a {
   color: #cb56ee;
@@ -596,7 +596,7 @@ h6 {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #fff;
+  color: #F5F5F5;
   background: #34b7a7;
 }
 
@@ -647,7 +647,7 @@ h6 {
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: #fff;
+  color: #F5F5F5;
   font-weight: 600;
 }
 
@@ -666,7 +666,7 @@ h6 {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #fff;
+  color: #F5F5F5;
   margin: 0 5px 0 0;
   font-size: 28px;
   display: inline-block;
@@ -708,7 +708,7 @@ h6 {
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: #F5F5F5;
   opacity: 1;
   border: 1px solid #34b7a7;
 }
@@ -761,7 +761,7 @@ h6 {
 /* FIGURE THIS OUT | PRETTY SURE IT NEEDS OBLITERATED */
 /* .contact .info {
   width: 100%;
-  background: #fff;
+  background: #F5F5F5;
 }
 .contact .info i {
   font-size: 16px;
@@ -781,25 +781,25 @@ h6 {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #fff;
+  color: #F5F5F5;
 }
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #fff;
+  color: #F5F5F5;
   font-family: monospace;
 }
 .contact .info .email,
 .contact .info .phone {
   margin-top: 40px;
-  color: #fff;
+  color: #F5F5F5;
 }
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
   background: #34b7a7;
-  color: #fff;
+  color: #F5F5F5;
 } */
 
 /* FIND TEXT TO STYLE */
@@ -818,13 +818,13 @@ h6 {
   box-shadow: none;
   font-size: 14px;
   font-family: "sans-serif", monospace;
-  color: #fff;
+  color: #F5F5F5;
 }
 
 /* FIGURE THIS OUT */
 .contact .php-email-form .error-message {
   display: none;
-  color: #fff;
+  color: #F5F5F5;
   background: #cb56ee;
   text-align: center;
   padding: 15px;
@@ -832,7 +832,7 @@ h6 {
 }
 .contact .php-email-form .sent-message {
   display: none;
-  color: #fff;
+  color: #F5F5F5;
   background: #34b7a7;
   text-align: center;
   padding: 15px;
@@ -840,7 +840,7 @@ h6 {
 }
 .contact .php-email-form .loading {
   display: none;
-  background: #fff;
+  background: #F5F5F5;
   text-align: center;
   padding: 15px;
 }
@@ -861,7 +861,7 @@ h6 {
 .contact .php-email-form input::placeholder,
 .contact .php-email-form textarea,
 .contact .php-email-form textarea::placeholder {
-color: #fff;
+color: #F5F5F5;
 background-color: black;
 }
 .contact .php-email-form input:focus,
@@ -880,7 +880,7 @@ background-color: black;
   background-color: rgba(236, 244, 243, 0.043);
   border: 2px solid rgba(247, 243, 243, 0.125);
   padding: 5px;
-  color: #fff;
+  color: #F5F5F5;
   font-family: "sans-serif", monospace;
   font-size: 14px;
   transition: 0.4s;
@@ -911,7 +911,7 @@ background-color: black;
   border-radius: 4px;
   border: 2px solid rgba(247, 243, 243, 0.125);
   padding: 10px 30px;
-  color: #fff;
+  color: #F5F5F5;
   font-size: 10px;
   text-align: left;
   font-family: "sans-serif", monospace;

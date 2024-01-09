@@ -142,9 +142,9 @@
   border-radius: 2px;
   border-radius: 2px;
   border-radius: var(--plyr-badge-border-radius, 2px);
-  color: #fff;
-  color: #fff;
-  color: var(--plyr-badge-text-color, #fff);
+  color: #F5F5F5;
+  color: #F5F5F5;
+  color: var(--plyr-badge-text-color, #F5F5F5);
   font-size: 9px;
   font-size: 9px;
   font-size: var(--plyr-font-size-badge, 9px);
@@ -201,9 +201,9 @@
   border-radius: 2px;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
-  color: #fff;
-  color: #fff;
-  color: var(--plyr-captions-text-color, #fff);
+  color: #F5F5F5;
+  color: #F5F5F5;
+  color: var(--plyr-captions-text-color, #F5F5F5);
   line-height: 185%;
   padding: 0.2em 0.5em;
   white-space: pre-wrap;
@@ -521,11 +521,11 @@ a.plyr__control:before {
   background: #dcdfe5;
   background: #dcdfe5;
   background: var(--plyr-menu-back-border-color, #dcdfe5);
-  -webkit-box-shadow: 0 1px 0 #fff;
-  box-shadow: 0 1px 0 #fff;
-  box-shadow: 0 1px 0 #fff;
-  -webkit-box-shadow: 0 1px 0 var(--plyr-menu-back-border-shadow-color, #fff);
-  box-shadow: 0 1px 0 var(--plyr-menu-back-border-shadow-color, #fff);
+  -webkit-box-shadow: 0 1px 0 #F5F5F5;
+  box-shadow: 0 1px 0 #F5F5F5;
+  box-shadow: 0 1px 0 #F5F5F5;
+  -webkit-box-shadow: 0 1px 0 var(--plyr-menu-back-border-shadow-color, #F5F5F5);
+  box-shadow: 0 1px 0 var(--plyr-menu-back-border-shadow-color, #F5F5F5);
   content: '';
   height: 1px;
   left: 0;
@@ -570,7 +570,7 @@ a.plyr__control:before {
 }
 
 .plyr__menu__container .plyr__control[role='menuitemradio']:after {
-  background: #fff;
+  background: #F5F5F5;
   border: 0;
   height: 6px;
   left: 12px;
@@ -672,9 +672,9 @@ a.plyr__control:before {
 .plyr--full-ui input[type='range']::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  background: #fff;
-  background: #fff;
-  background: var(--plyr-range-thumb-background, #fff);
+  background: #F5F5F5;
+  background: #F5F5F5;
+  background: var(--plyr-range-thumb-background, #F5F5F5);
   border: 0;
   border-radius: 100%;
   -webkit-box-shadow: 0 1px 1px 0 0 0 1px rgba(35, 40, 47, 0.15) rgba(35, 40, 47, 0.2);
@@ -713,9 +713,9 @@ a.plyr__control:before {
 }
 
 .plyr--full-ui input[type='range']::-moz-range-thumb {
-  background: #fff;
-  background: #fff;
-  background: var(--plyr-range-thumb-background, #fff);
+  background: #F5F5F5;
+  background: #F5F5F5;
+  background: var(--plyr-range-thumb-background, #F5F5F5);
   border: 0;
   border-radius: 100%;
   box-shadow: 0 1px 1px 0 0 0 1px rgba(35, 40, 47, 0.15) rgba(35, 40, 47, 0.2);
@@ -779,9 +779,9 @@ a.plyr__control:before {
 }
 
 .plyr--full-ui input[type='range']::-ms-thumb {
-  background: #fff;
-  background: #fff;
-  background: var(--plyr-range-thumb-background, #fff);
+  background: #F5F5F5;
+  background: #F5F5F5;
+  background: var(--plyr-range-thumb-background, #F5F5F5);
   border: 0;
   border-radius: 100%;
   box-shadow: 0 1px 1px 0 0 0 1px rgba(35, 40, 47, 0.15) rgba(35, 40, 47, 0.2);
@@ -1157,9 +1157,9 @@ a.plyr__control:before {
 }
 
 .plyr--audio .plyr__controls {
-  background: #fff;
-  background: #fff;
-  background: var(--plyr-audio-controls-background, #fff);
+  background: #F5F5F5;
+  background: #F5F5F5;
+  background: var(--plyr-audio-controls-background, #F5F5F5);
   border-radius: inherit;
   color: #4a5464;
   color: #4a5464;
@@ -1175,9 +1175,9 @@ a.plyr__control:before {
   background: #00b3ff;
   background: #00b3ff;
   background: var(--plyr-audio-control-background-hover, var(--plyr-color-main, var(--plyr-color-main, #00b3ff)));
-  color: #fff;
-  color: #fff;
-  color: var(--plyr-audio-control-color-hover, #fff);
+  color: #F5F5F5;
+  color: #F5F5F5;
+  color: var(--plyr-audio-control-color-hover, #F5F5F5);
 }
 
 .plyr--full-ui.plyr--audio input[type='range']::-webkit-slider-runnable-track {
@@ -1294,9 +1294,9 @@ a.plyr__control:before {
   border-bottom-left-radius: inherit;
   border-bottom-right-radius: inherit;
   bottom: 0;
-  color: #fff;
-  color: #fff;
-  color: var(--plyr-video-control-color, #fff);
+  color: #F5F5F5;
+  color: #F5F5F5;
+  color: var(--plyr-video-control-color, #F5F5F5);
   left: 0;
   padding: 5px;
   padding: calc(10px / 2);
@@ -1326,9 +1326,9 @@ a.plyr__control:before {
   background: #00b3ff;
   background: #00b3ff;
   background: var(--plyr-video-control-background-hover, var(--plyr-color-main, var(--plyr-color-main, #00b3ff)));
-  color: #fff;
-  color: #fff;
-  color: var(--plyr-video-control-color-hover, #fff);
+  color: #F5F5F5;
+  color: #F5F5F5;
+  color: var(--plyr-video-control-color-hover, #F5F5F5);
 }
 
 .plyr__control--overlaid {
@@ -1337,9 +1337,9 @@ a.plyr__control:before {
   background: var(--plyr-video-control-background-hover, var(--plyr-color-main, var(--plyr-color-main, #00b3ff)));
   border: 0;
   border-radius: 100%;
-  color: #fff;
-  color: #fff;
-  color: var(--plyr-video-control-color, #fff);
+  color: #F5F5F5;
+  color: #F5F5F5;
+  color: var(--plyr-video-control-color, #F5F5F5);
   display: none;
   left: 50%;
   opacity: 0.9;
@@ -1555,7 +1555,7 @@ a.plyr__control:before {
   bottom: 10px;
   bottom: 10px;
   bottom: var(--plyr-control-spacing, 10px);
-  color: #fff;
+  color: #F5F5F5;
   content: attr(data-badge-text);
   font-size: 11px;
   padding: 2px 6px;
@@ -1681,7 +1681,7 @@ a.plyr__control:before {
   border-radius: 2px;
   border-radius: calc(3px - 1px);
   border-radius: calc(var(--plyr-tooltip-radius, 3px) - 1px);
-  color: #fff;
+  color: #F5F5F5;
   font-size: 13px;
   font-size: 13px;
   font-size: var(--plyr-font-size-time, var(--plyr-font-size-small, 13px));

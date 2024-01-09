@@ -227,7 +227,7 @@
 }
 
 .gslide-inline {
-  background: #fff;
+  background: #F5F5F5;
   text-align: left;
   max-height: calc(100vh - 40px);
   overflow: auto;
@@ -259,7 +259,7 @@
   display: flex;
   width: 100%;
   min-width: 100%;
-  background: #fff;
+  background: #F5F5F5;
   padding: 0;
   overflow: auto;
   max-height: 75vh;
@@ -348,7 +348,7 @@
 }
 
 .glightbox-mobile .glightbox-container .gslide-title {
-  color: #fff;
+  color: #F5F5F5;
   font-size: 1em;
 }
 
@@ -357,7 +357,7 @@
 }
 
 .glightbox-mobile .glightbox-container .gslide-desc a {
-  color: #fff;
+  color: #F5F5F5;
   font-weight: bold;
 }
 
@@ -366,7 +366,7 @@
 }
 
 .glightbox-mobile .glightbox-container .gslide-desc .desc-more {
-  color: #fff;
+  color: #F5F5F5;
   opacity: 0.4;
 }
 
@@ -412,7 +412,7 @@
   width: 25px;
   -webkit-animation: lightboxLoader 0.8s infinite linear;
   animation: lightboxLoader 0.8s infinite linear;
-  border: 2px solid #fff;
+  border: 2px solid #F5F5F5;
   border-right-color: transparent;
   border-radius: 50%;
   position: absolute;
@@ -480,7 +480,7 @@
 .gprev .garrow,
 .gnext .garrow,
 .gclose .garrow {
-  stroke: #fff;
+  stroke: #F5F5F5;
 }
 
 .gbtn.focused {
@@ -501,7 +501,7 @@ iframe.wait-autoplay {
 /*Skin */
 
 .glightbox-clean .gslide-description {
-  background: #fff;
+  background: #F5F5F5;
 }
 
 .glightbox-clean .gdesc-inner {
@@ -538,7 +538,7 @@ iframe.wait-autoplay {
 .glightbox-clean .gprev path,
 .glightbox-clean .gnext path,
 .glightbox-clean .gclose path {
-  fill: #fff;
+  fill: #F5F5F5;
 }
 
 .glightbox-clean .gprev {
